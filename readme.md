@@ -13,5 +13,6 @@ You'll need to create a Dropbox App to get an App Secret and an Access Token.
 Your app only needs permission to one directory. 
 
 Rename the .env.example file to .env and place the dropbox keys where appropriate.
+Make sure storage directory has write permissions.
 
 Direct participants to the `/` route and hack away. 
