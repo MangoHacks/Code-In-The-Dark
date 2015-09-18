@@ -31,7 +31,16 @@
     <input type="hidden" name="round" value="1" />
     <input type="hidden" name="start" value="2015-09-16 21:56:42 +0000" />
     <input type="hidden" name="name" id="name" value="" />
-    <textarea name="html" id="code"></textarea>
+    <textarea name="html" id="code"><!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <style>
+    </style>
+</head>
+<body>
+</body>
+</html></textarea>
 </form>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
