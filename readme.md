@@ -14,4 +14,4 @@ Your app only needs permission to one directory.
 
 Rename the .env.example file to .env and place the dropbox keys where appropriate.
 
-Direct participants to the `/` and hack away. 
+Direct participants to the `/` route and hack away. 
