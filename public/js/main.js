@@ -1,4 +1,10 @@
 $(function () {
+
+	var editor = CodeMirror.fromTextArea(document.getElementById('code'), {
+		lineNumbers: false,
+		theme: 'mangodark'
+	});
+
 	window.submittedForm = false;
 
 	$("#code").focus();

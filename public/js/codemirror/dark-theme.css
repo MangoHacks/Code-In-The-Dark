@@ -1,0 +1,35 @@
+/* Based on Sublime Text's Monokai theme */
+
+.cm-s-mangodark.CodeMirror { height: 100%; padding: 10px 0px; background: #1D1E1A; color: #f8f8f2; font-family: 'Code New Roman', 'Courier New', 'Courier', monospace;}
+.cm-s-mangodark div.CodeMirror-selected { background: #49483E; }
+.cm-s-mangodark .CodeMirror-line::selection, .cm-s-mangodark .CodeMirror-line > span::selection, .cm-s-mangodark .CodeMirror-line > span > span::selection { background: rgba(73, 72, 62, .99); }
+.cm-s-mangodark .CodeMirror-line::-moz-selection, .cm-s-mangodark .CodeMirror-line > span::-moz-selection, .cm-s-mangodark .CodeMirror-line > span > span::-moz-selection { background: rgba(73, 72, 62, .99); }
+.cm-s-mangodark .CodeMirror-gutters { background: #1D1E1A; border-right: 0px; }
+.cm-s-mangodark .CodeMirror-guttermarker { color: white; }
+.cm-s-mangodark .CodeMirror-guttermarker-subtle { color: #d0d0d0; }
+.cm-s-mangodark .CodeMirror-linenumber { color: #d0d0d0; }
+.cm-s-mangodark .CodeMirror-cursor { border-left: 1px solid #f8f8f0; }
+
+.cm-s-mangodark span.cm-comment { color: #75715e; }
+.cm-s-mangodark span.cm-atom { color: #ae81ff; }
+.cm-s-mangodark span.cm-number { color: #ae81ff; }
+
+.cm-s-mangodark span.cm-property, .cm-s-mangodark span.cm-attribute { color: #a6e22e; }
+.cm-s-mangodark span.cm-keyword { color: #f92672; }
+.cm-s-mangodark span.cm-string { color: #e6db74; }
+
+.cm-s-mangodark span.cm-variable { color: #f8f8f2; }
+.cm-s-mangodark span.cm-variable-2 { color: #9effff; }
+.cm-s-mangodark span.cm-variable-3 { color: #66d9ef; }
+.cm-s-mangodark span.cm-def { color: #fd971f; }
+.cm-s-mangodark span.cm-bracket { color: #f8f8f2; }
+.cm-s-mangodark span.cm-tag { color: #f92672; }
+.cm-s-mangodark span.cm-header { color: #ae81ff; }
+.cm-s-mangodark span.cm-link { color: #ae81ff; }
+.cm-s-mangodark span.cm-error { background: #f92672; color: #f8f8f0; }
+
+.cm-s-mangodark .CodeMirror-activeline-background { background: #373831; }
+.cm-s-mangodark .CodeMirror-matchingbracket {
+    text-decoration: underline;
+    color: white !important;
+}
