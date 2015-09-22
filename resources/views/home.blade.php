@@ -11,6 +11,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="js/codemirror/codemirror.css">
+    <link rel="stylesheet" href="js/codemirror/dark-theme.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/extended.css">
 </head>
@@ -45,6 +47,7 @@
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
+<script src="js/codemirror/codemirror.js"></script>
 <script src="js/main.js"></script>
 
 <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
