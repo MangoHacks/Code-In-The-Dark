@@ -5,6 +5,21 @@ $(function () {
 		theme: 'mangodark'
 	});
 
+	var $assets_panel = $('.assets_panel');
+	var $open_btn = $('a.open-assets');
+	var $clost_btn = $('a.close-button');
+	var active_class = 'active';
+
+	$open_btn.on('click', function(e){
+		e.preventDefault();
+		$assets_panel.addClass(active_class);
+	});
+
+	$clost_btn.on('click', function(e){
+		e.preventDefault();
+		$assets_panel.removeClass(active_class);
+	});
+
 	window.submittedForm = false;
 
 	$("#code").focus();

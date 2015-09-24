@@ -132,9 +132,71 @@ form {
     outline: none;
 }
 
+#sponsors .open-assets {
+    display: inline-block;
+    padding: 8px 10px;
+    color: white;
+    margin: 16px;
+    border: 3px solid white;
+    border-radius: 9px;
+    text-align: center;
+    text-decoration: none;
+}
+#sponsors .open-assets:hover {
+    color: #1D1E1A;
+    background: #fff;
+}
 
+.assets_panel {
+    position: fixed;
+    width: 300px;
+    bottom: 0;
+    overflow-y: scroll;
+    top: 0;
+    right: 0;
+    background: #7B7B7B;
+    padding: 10px;
+    z-index: 10;
+    transition: transform .2s ease-in-out;
+    -webkit-transform: translateX(300px);
+    -moz-transform: translateX(300px);
+    -ms-transform: translateX(300px);
+    -o-transform: translateX(300px);
+    transform: translateX(300px);
+}
+.assets_panel.active {
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0);
+}
 
+.assets_panel .asset {
+    padding: 10px;
+    background: #383838;
+    margin-bottom: 10px;
+}
 
+.assets_panel .asset .path {
+    display: block;
+    margin-top: 10px;
+}
+
+.assets_panel .close-button {
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    font-size: 1.7em;
+    border-radius: 6px;
+    line-height: 1.1em;
+    width: 1.5em;
+    text-align: center;
+    height: 1.5em;
+    padding: 6px;
+    margin-bottom: 8px;
+    display: inline-block;  
+}
 
 /* ==========================================================================
    Media Queries

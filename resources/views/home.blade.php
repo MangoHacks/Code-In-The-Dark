@@ -24,6 +24,7 @@
     </div>
 
     <div id="sponsors">
+        <a href="#" class="open-assets">Assets Panel</a>
         <img src="img/logo.png" alt="Code In The Dark">
     </div>
 </header>
@@ -44,6 +45,11 @@
 </body>
 </html></textarea>
 </form>
+<div class="assets_panel">
+    <a href="#" class="close-button">✖</a>
+    @include('assets_panel')
+</div>
+
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
