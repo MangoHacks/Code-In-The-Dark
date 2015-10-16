@@ -24,10 +24,10 @@ Route::post('/submit', function(Request $request) {
     return "Boom! You did it.";
 });
 
-Route::get('/storage-test', function(){
-    //Storage::disk('local')->put('file.txt', 'Hello From Laravel');
-
-    $testFile = Storage::disk('local')->get('file.txt');
-    Storage::disk('dropbox')->put('file.txt', $testFile);
-    return "Done!";
-});
+//Route::get('/storage-test', function(){
+//    //Storage::disk('local')->put('file.txt', 'Hello From Laravel');
+//
+//    $testFile = Storage::disk('local')->get('file.txt');
+//    Storage::disk('dropbox')->put('file.txt', $testFile);
+//    return "Done!";
+//});

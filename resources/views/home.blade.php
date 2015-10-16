@@ -29,7 +29,8 @@
     </div>
 </header>
 
-<form action='/submit' method='post'>
+<form action='/
+' method='post'>
     {{ csrf_field() }}
     <input type="hidden" name="round" value="1" />
     <input type="hidden" name="start" value="2015-09-16 21:56:42 +0000" />

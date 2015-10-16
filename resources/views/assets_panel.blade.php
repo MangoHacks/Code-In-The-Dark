@@ -3,10 +3,10 @@
     <span class="path">assets/logo.png</span>
 </div>
 <div class="asset">
-    <img src="assets/mic.png" alt="">
-    <span class="path">assets/mic.png</span>
+    <img src="assets/play.png" alt="">
+    <span class="path">assets/play.png</span>
 </div>
 <div class="asset">
-    <img src="assets/squares.png" alt="">
-    <span class="path">assets/squares.png</span>
+    <img style="max-width: 100%;;" src="assets/bg.jpg" alt="">
+    <span class="path">assets/bg.jpg (2560x1440) </span>
 </div>
